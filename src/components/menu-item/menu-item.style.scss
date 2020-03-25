@@ -1,0 +1,28 @@
+.menu-item {
+    min-width: 30%;
+    height: 240px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+
+    &.large {
+        height: 380px;
+    }
+
+    &:first-child {
+        margin-right: 7.5px;
+    }
+
+    &:nth-child(3) {
+        margin-left: 7.5px;
+    }
+
+    &:last-child {
+        margin-left: 7.5px;
+    }
+}
